@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+
+.app-bar {
+  display: flex;
+  flex-direction: row; /* Align items horizontally */
+  justify-content: space-between; /* Space out items */
+  align-items: center; /* Vertically center items */
+  padding: 10px 20px; /* Adjust padding as needed */
+  height: 80px; /* Adjust the larger height for the left side */
+}
+
+.logo {
+  /* Apply styles for the logo, such as width, height, etc. */
+}
+
+.button-container {
+  display: flex;
+  align-items: center; /* Vertically center buttons */
+}
+
+.button {
+  margin-left: 15px; /* Add spacing between buttons */
+  /* Apply any button-specific styles */
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.MuiSelect-select {
+  text-align: left;
+}
+.MuiGrid-root MuiGrid-container signup__shell__outer css-go2vvz-MuiGrid-root{
+  max-width: 100% !important;
+
+}
